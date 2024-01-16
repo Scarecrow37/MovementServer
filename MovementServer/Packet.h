@@ -23,6 +23,12 @@ typedef struct location
     unsigned short Y;
 } LOCATION;
 
+typedef struct move
+{
+    unsigned short X;
+    unsigned short Y;
+} MOVE;
+
 #pragma pack(pop)
 
 #endif
